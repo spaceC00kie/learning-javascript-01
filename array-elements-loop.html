@@ -2,8 +2,13 @@
   <head></head>
   <body>
     <script type="text/javascript">
-      var cake = prompt("Pick a flavor:", "");
-      document.write(cake + " is the best flavor of cake.");
+      var flower = new Array(3);
+
+      for (i = 0; i < 3; i++) {
+        flower[i] = prompt("Add something to the array:", "");
+      }
+
+      document.write(flower[0] + flower[1] + flower[2]);
     </script>
   </body>
 </html>
